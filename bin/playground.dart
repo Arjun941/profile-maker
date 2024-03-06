@@ -11,12 +11,12 @@ void main() {
   double? weight = double.parse(stdin.readLineSync()!);
   print ('What are your hobbies?');
   String? hobbies = stdin.readLineSync();
-  print("\n What's your phone number?");
+  print("\nWhat's your phone number?");
   int? phonenumber = int.parse(stdin.readLineSync()!);
+  print("\nWhat's your Address?\n");
+  String?address = stdin.readLineSync();
 
-  String? address; // Define the variable 'address' before using it
-
-  print(" \nPROFILE\n ");
+  print("\nPROFILE\n");
   print(" \n------------------\n ");
 
   print('Name = $name \n');
